@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA00A622150C20F900E3EA21 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA00A621150C20F900E3EA21 /* Cocoa.framework */; };
+		BA00A62C150C20F900E3EA21 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BA00A62A150C20F900E3EA21 /* InfoPlist.strings */; };
+		BA00A62E150C20F900E3EA21 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA00A62D150C20F900E3EA21 /* main.m */; };
+		BA00A632150C20F900E3EA21 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = BA00A630150C20F900E3EA21 /* Credits.rtf */; };
+		BA00A635150C20F900E3EA21 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA00A634150C20F900E3EA21 /* AppDelegate.m */; };
+		BA00A638150C20F900E3EA21 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA00A636150C20F900E3EA21 /* MainMenu.xib */; };
+		BA00A644150C21F500E3EA21 /* Growl Registration Ticket.growlRegDict in Resources */ = {isa = PBXBuildFile; fileRef = BA00A643150C21F500E3EA21 /* Growl Registration Ticket.growlRegDict */; };
+		BA00A646150C2A6500E3EA21 /* Growl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA00A645150C2A6500E3EA21 /* Growl.framework */; };
+		BA00A647150C2A7000E3EA21 /* Growl.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = BA00A645150C2A6500E3EA21 /* Growl.framework */; };
+		BA00A64E150C8B5F00E3EA21 /* NLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = BA00A64D150C8B5F00E3EA21 /* NLParser.m */; };
+		BA00A656150D050E00E3EA21 /* NLNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = BA00A655150D050E00E3EA21 /* NLNotification.m */; };
+		BA00A65A150D0EB000E3EA21 /* NLSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = BA00A659150D0EB000E3EA21 /* NLSocket.m */; };
+		BA00A66915105D6700E3EA21 /* NLPreferenceController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA00A66815105D6700E3EA21 /* NLPreferenceController.m */; };
+		BA00A66C151062B500E3EA21 /* notifyList.png in Resources */ = {isa = PBXBuildFile; fileRef = BA00A66B151062B500E3EA21 /* notifyList.png */; };
+		BA1A13BB1513C6D7005C491E /* logo.icns in Resources */ = {isa = PBXBuildFile; fileRef = BA1A13BA1513C6D7005C491E /* logo.icns */; };
+		BA5ED033150DD9EC00478932 /* NLAuthentication.m in Sources */ = {isa = PBXBuildFile; fileRef = BA5ED032150DD9EC00478932 /* NLAuthentication.m */; };
+		BA5ED035150DE8EC00478932 /* NLModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA5ED034150DE8EC00478932 /* NLModelController.m */; };
+		BA79762F1512191F00DCCD83 /* NLNotifyListController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA79762E1512191E00DCCD83 /* NLNotifyListController.m */; };
+		BA9EFCA2150F24BB00B9A9BE /* NLLogController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9EFCA1150F24BB00B9A9BE /* NLLogController.m */; };
+		BA9EFCA9150F4DF600B9A9BE /* NLConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9EFCA8150F4DF600B9A9BE /* NLConnection.m */; };
+		BA9EFCAB150F721800B9A9BE /* accountImage.png in Resources */ = {isa = PBXBuildFile; fileRef = BA9EFCAA150F721800B9A9BE /* accountImage.png */; };
+		BAE8F0C615135E1C00771F6B /* NLAccountController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE8F0C515135E1C00771F6B /* NLAccountController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BA00A640150C216D00E3EA21 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				BA00A647150C2A7000E3EA21 /* Growl.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BA00A61D150C20F900E3EA21 /* NicoLiveAlert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NicoLiveAlert.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA00A621150C20F900E3EA21 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		BA00A624150C20F900E3EA21 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		BA00A625150C20F900E3EA21 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		BA00A626150C20F900E3EA21 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BA00A629150C20F900E3EA21 /* NicoLiveAlert-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NicoLiveAlert-Info.plist"; sourceTree = "<group>"; };
+		BA00A62B150C20F900E3EA21 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BA00A62D150C20F900E3EA21 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BA00A62F150C20F900E3EA21 /* NicoLiveAlert-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NicoLiveAlert-Prefix.pch"; sourceTree = "<group>"; };
+		BA00A631150C20F900E3EA21 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		BA00A633150C20F900E3EA21 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BA00A634150C20F900E3EA21 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BA00A637150C20F900E3EA21 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		BA00A643150C21F500E3EA21 /* Growl Registration Ticket.growlRegDict */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Growl Registration Ticket.growlRegDict"; sourceTree = "<group>"; };
+		BA00A645150C2A6500E3EA21 /* Growl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Growl.framework; path = NicoLiveAlert/Growl.framework; sourceTree = "<group>"; };
+		BA00A64C150C8B5F00E3EA21 /* NLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLParser.h; sourceTree = "<group>"; };
+		BA00A64D150C8B5F00E3EA21 /* NLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLParser.m; sourceTree = "<group>"; };
+		BA00A655150D050E00E3EA21 /* NLNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLNotification.m; sourceTree = "<group>"; };
+		BA00A658150D0EB000E3EA21 /* NLSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLSocket.h; sourceTree = "<group>"; };
+		BA00A659150D0EB000E3EA21 /* NLSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLSocket.m; sourceTree = "<group>"; };
+		BA00A66715105D6700E3EA21 /* NLPreferenceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLPreferenceController.h; sourceTree = "<group>"; };
+		BA00A66815105D6700E3EA21 /* NLPreferenceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLPreferenceController.m; sourceTree = "<group>"; };
+		BA00A66B151062B500E3EA21 /* notifyList.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = notifyList.png; sourceTree = "<group>"; };
+		BA1A13BA1513C6D7005C491E /* logo.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = logo.icns; path = ../logo.icns; sourceTree = "<group>"; };
+		BA5ED02D150DD82400478932 /* NLModelContoller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLModelContoller.h; sourceTree = "<group>"; };
+		BA5ED031150DD9EC00478932 /* NLAuthentication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLAuthentication.h; sourceTree = "<group>"; };
+		BA5ED032150DD9EC00478932 /* NLAuthentication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLAuthentication.m; sourceTree = "<group>"; };
+		BA5ED034150DE8EC00478932 /* NLModelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLModelController.m; sourceTree = "<group>"; };
+		BA5ED036150DEA5A00478932 /* NLNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLNotification.h; sourceTree = "<group>"; };
+		BA79762D1512191E00DCCD83 /* NLNotifyListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLNotifyListController.h; sourceTree = "<group>"; };
+		BA79762E1512191E00DCCD83 /* NLNotifyListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLNotifyListController.m; sourceTree = "<group>"; };
+		BA9EFCA0150F24BB00B9A9BE /* NLLogController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLLogController.h; sourceTree = "<group>"; };
+		BA9EFCA1150F24BB00B9A9BE /* NLLogController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLLogController.m; sourceTree = "<group>"; };
+		BA9EFCA7150F4DF600B9A9BE /* NLConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLConnection.h; sourceTree = "<group>"; };
+		BA9EFCA8150F4DF600B9A9BE /* NLConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLConnection.m; sourceTree = "<group>"; };
+		BA9EFCAA150F721800B9A9BE /* accountImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = accountImage.png; sourceTree = "<group>"; };
+		BAE8F0C415135E1C00771F6B /* NLAccountController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLAccountController.h; sourceTree = "<group>"; };
+		BAE8F0C515135E1C00771F6B /* NLAccountController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLAccountController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA00A61A150C20F900E3EA21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA00A622150C20F900E3EA21 /* Cocoa.framework in Frameworks */,
+				BA00A646150C2A6500E3EA21 /* Growl.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA00A612150C20F800E3EA21 = {
+			isa = PBXGroup;
+			children = (
+				BA00A627150C20F900E3EA21 /* NicoLiveAlert */,
+				BA00A620150C20F900E3EA21 /* Frameworks */,
+				BA00A61E150C20F900E3EA21 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA00A61E150C20F900E3EA21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA00A61D150C20F900E3EA21 /* NicoLiveAlert.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA00A620150C20F900E3EA21 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA00A645150C2A6500E3EA21 /* Growl.framework */,
+				BA00A621150C20F900E3EA21 /* Cocoa.framework */,
+				BA00A623150C20F900E3EA21 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BA00A623150C20F900E3EA21 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA00A624150C20F900E3EA21 /* AppKit.framework */,
+				BA00A625150C20F900E3EA21 /* CoreData.framework */,
+				BA00A626150C20F900E3EA21 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		BA00A627150C20F900E3EA21 /* NicoLiveAlert */ = {
+			isa = PBXGroup;
+			children = (
+				BA00A633150C20F900E3EA21 /* AppDelegate.h */,
+				BA00A634150C20F900E3EA21 /* AppDelegate.m */,
+				BA5ED02D150DD82400478932 /* NLModelContoller.h */,
+				BA5ED034150DE8EC00478932 /* NLModelController.m */,
+				BA9EFCA7150F4DF600B9A9BE /* NLConnection.h */,
+				BA9EFCA8150F4DF600B9A9BE /* NLConnection.m */,
+				BA5ED031150DD9EC00478932 /* NLAuthentication.h */,
+				BA5ED032150DD9EC00478932 /* NLAuthentication.m */,
+				BA00A64C150C8B5F00E3EA21 /* NLParser.h */,
+				BA00A64D150C8B5F00E3EA21 /* NLParser.m */,
+				BA00A658150D0EB000E3EA21 /* NLSocket.h */,
+				BA00A659150D0EB000E3EA21 /* NLSocket.m */,
+				BA5ED036150DEA5A00478932 /* NLNotification.h */,
+				BA00A655150D050E00E3EA21 /* NLNotification.m */,
+				BA9EFCA0150F24BB00B9A9BE /* NLLogController.h */,
+				BA9EFCA1150F24BB00B9A9BE /* NLLogController.m */,
+				BA00A66715105D6700E3EA21 /* NLPreferenceController.h */,
+				BA00A66815105D6700E3EA21 /* NLPreferenceController.m */,
+				BAE8F0C415135E1C00771F6B /* NLAccountController.h */,
+				BAE8F0C515135E1C00771F6B /* NLAccountController.m */,
+				BA79762D1512191E00DCCD83 /* NLNotifyListController.h */,
+				BA79762E1512191E00DCCD83 /* NLNotifyListController.m */,
+				BA00A636150C20F900E3EA21 /* MainMenu.xib */,
+				BA00A628150C20F900E3EA21 /* Supporting Files */,
+				BA00A642150C218800E3EA21 /* Resource */,
+			);
+			path = NicoLiveAlert;
+			sourceTree = "<group>";
+		};
+		BA00A628150C20F900E3EA21 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA00A629150C20F900E3EA21 /* NicoLiveAlert-Info.plist */,
+				BA00A62A150C20F900E3EA21 /* InfoPlist.strings */,
+				BA00A62D150C20F900E3EA21 /* main.m */,
+				BA00A62F150C20F900E3EA21 /* NicoLiveAlert-Prefix.pch */,
+				BA00A630150C20F900E3EA21 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BA00A642150C218800E3EA21 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				BA00A643150C21F500E3EA21 /* Growl Registration Ticket.growlRegDict */,
+				BA1A13BA1513C6D7005C491E /* logo.icns */,
+				BA9EFCAA150F721800B9A9BE /* accountImage.png */,
+				BA00A66B151062B500E3EA21 /* notifyList.png */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA00A61C150C20F900E3EA21 /* NicoLiveAlert */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA00A63B150C20FA00E3EA21 /* Build configuration list for PBXNativeTarget "NicoLiveAlert" */;
+			buildPhases = (
+				BA00A619150C20F900E3EA21 /* Sources */,
+				BA00A61A150C20F900E3EA21 /* Frameworks */,
+				BA00A61B150C20F900E3EA21 /* Resources */,
+				BA00A640150C216D00E3EA21 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NicoLiveAlert;
+			productName = NicoLiveAlert;
+			productReference = BA00A61D150C20F900E3EA21 /* NicoLiveAlert.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA00A614150C20F800E3EA21 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = BA00A617150C20F800E3EA21 /* Build configuration list for PBXProject "NicoLiveAlert" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BA00A612150C20F800E3EA21;
+			productRefGroup = BA00A61E150C20F900E3EA21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA00A61C150C20F900E3EA21 /* NicoLiveAlert */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA00A61B150C20F900E3EA21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA00A62C150C20F900E3EA21 /* InfoPlist.strings in Resources */,
+				BA00A632150C20F900E3EA21 /* Credits.rtf in Resources */,
+				BA00A638150C20F900E3EA21 /* MainMenu.xib in Resources */,
+				BA00A644150C21F500E3EA21 /* Growl Registration Ticket.growlRegDict in Resources */,
+				BA9EFCAB150F721800B9A9BE /* accountImage.png in Resources */,
+				BA00A66C151062B500E3EA21 /* notifyList.png in Resources */,
+				BA1A13BB1513C6D7005C491E /* logo.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA00A619150C20F900E3EA21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA00A62E150C20F900E3EA21 /* main.m in Sources */,
+				BA00A635150C20F900E3EA21 /* AppDelegate.m in Sources */,
+				BA00A64E150C8B5F00E3EA21 /* NLParser.m in Sources */,
+				BA00A656150D050E00E3EA21 /* NLNotification.m in Sources */,
+				BA00A65A150D0EB000E3EA21 /* NLSocket.m in Sources */,
+				BA5ED033150DD9EC00478932 /* NLAuthentication.m in Sources */,
+				BA5ED035150DE8EC00478932 /* NLModelController.m in Sources */,
+				BA9EFCA2150F24BB00B9A9BE /* NLLogController.m in Sources */,
+				BA9EFCA9150F4DF600B9A9BE /* NLConnection.m in Sources */,
+				BA00A66915105D6700E3EA21 /* NLPreferenceController.m in Sources */,
+				BA79762F1512191F00DCCD83 /* NLNotifyListController.m in Sources */,
+				BAE8F0C615135E1C00771F6B /* NLAccountController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BA00A62A150C20F900E3EA21 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA00A62B150C20F900E3EA21 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BA00A630150C20F900E3EA21 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA00A631150C20F900E3EA21 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		BA00A636150C20F900E3EA21 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA00A637150C20F900E3EA21 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA00A639150C20FA00E3EA21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BA00A63A150C20FA00E3EA21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BA00A63C150C20FA00E3EA21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/NicoLiveAlert\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NicoLiveAlert/NicoLiveAlert-Prefix.pch";
+				INFOPLIST_FILE = "NicoLiveAlert/NicoLiveAlert-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BA00A63D150C20FA00E3EA21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/NicoLiveAlert\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NicoLiveAlert/NicoLiveAlert-Prefix.pch";
+				INFOPLIST_FILE = "NicoLiveAlert/NicoLiveAlert-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA00A617150C20F800E3EA21 /* Build configuration list for PBXProject "NicoLiveAlert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA00A639150C20FA00E3EA21 /* Debug */,
+				BA00A63A150C20FA00E3EA21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA00A63B150C20FA00E3EA21 /* Build configuration list for PBXNativeTarget "NicoLiveAlert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA00A63C150C20FA00E3EA21 /* Debug */,
+				BA00A63D150C20FA00E3EA21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA00A614150C20F800E3EA21 /* Project object */;
+}
